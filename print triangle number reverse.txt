@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    int a[50][50],n,m;
+    printf("Enter Column:");
+    scanf("%d",&m);
+    printf("Enter Row:");
+    scanf("%d",&n);
+    int i,j;
+    for(i=0;i<=n;i++)
+    {
+        for(j=1;j<=(n-i);j++){
+        printf("%d",j);
+        }
+    
+            printf("\n");
+    }
+
+return 0;    
+}
+
+//output
+Enter Column:5
+Enter Row:5
+12345
+1234
+123
+12
+1
+//
